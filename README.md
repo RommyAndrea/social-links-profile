@@ -12,7 +12,6 @@ This challenge helped me practice HTML & CSS fundamentals by building a simple, 
 👉 [Click here to view the live site](https://rommyandrea.github.io/social-links-profile/)
 
 ## 🛠️ Built with
-
 - Semantic HTML5
 - CSS custom properties
 - Flexbox
