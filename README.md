@@ -5,7 +5,7 @@ This challenge helped me practice HTML & CSS fundamentals by building a simple, 
 
 ## 📸 Screenshot
 
-![Social Links Profile](images/social-links-profile-screenshot.png)
+![Social Links Profile](images/social-links-profile-screenshot.jpeg)
 
 ## 🔗 Live site
 

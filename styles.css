@@ -6,31 +6,32 @@
 
 body {
     background-color: hsl(0, 0%, 8%);
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    padding: 40px;
-    margin: 117px;
+    gap: 2.5rem;
 }
 
 .container {
     background-color: hsl(0, 0%, 12%);
-    padding: 25px;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 20px;
-    width: 450px;
+    border-radius: 1.25rem;
+    max-width: 320px;
+    width: 100%;
+    gap: 1rem;
 }
 
 .container img{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
+    width: 88px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .text {
@@ -43,8 +44,7 @@ body {
 .text h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 700;
-    font-size: 20px;
-    margin-top: 35px
+    font-size: 1.25rem;
 }
 
 .text p {
@@ -54,13 +54,14 @@ body {
 
 .address{
     color: hsl(75, 94%, 57%);
-    margin-top: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .description {
     color: hsla(0, 0%, 100%, 0.65);
-    margin-top: 35px;
-    margin-bottom: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .button {
@@ -69,12 +70,11 @@ body {
     background-color: hsl(0, 0%, 20%);
     font-weight: 600;
     text-align: center;
-    padding: 15px 115px 15px 115px;
-    margin: 10px;
+    padding: 0.625rem;
+    margin: 0.5rem;
     width: 100%;
-    font-size: 15px;
-    border-radius: 10px;
-    white-space: nowrap;
+    font-size: 0.9375rem;
+    border-radius: 0.625rem;
 }
 
 
@@ -87,14 +87,10 @@ body {
 
 .attribution {
     color: hsl(0, 0%, 100%);
-    font-size: 15px; 
+    font-size: 0.875rem; 
     text-align: center;
-    position: relative;
-    top: 157px;
-    white-space: nowrap;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-    text-decoration: none;
 }
